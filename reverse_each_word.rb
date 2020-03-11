@@ -9,5 +9,6 @@ end
 
 def reverse_each_word(sentence2)
   string1 = sentence2.split
-    sentence2.collect { |string| string.reverse}
-end
+    sentence2.collect do  |string| string.reverse
+    end
+  end
