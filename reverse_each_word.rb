@@ -6,9 +6,3 @@ def reverse_each_word(sentence1)
      end
      array.join(" ")
 end
-
-def reverse_each_word(sentence2)
-  string1 = sentence2.split
-    sentence2.collect do  |string| string.reverse
-    end
-  end
